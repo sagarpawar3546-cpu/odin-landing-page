@@ -1,0 +1,144 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:300,400,500,600,700,800,900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+body {
+      font-family: 'Roboto', sans-serif;
+      font-size: 16px;
+      font-weight: 400;
+      margin: 0;
+      padding: 0;
+      background-color: #ffffff;
+      display: flex;
+      flex-direction: column;
+}
+
+.top{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    background-color: #1f2937;
+    color: white;
+    padding: 50px 0px 90px 0px;
+    align-items: center;
+    font-size: 25px;
+    font-weight: bold;
+    
+}
+.top h3{
+    margin-left: 12%;
+}
+
+nav{
+    display: flex;
+    width: 50%;
+
+    justify-content: space-around;
+}
+nav a{
+    color: white;
+    text-decoration: none;
+}
+/* hero*/
+
+.hero{
+    display: flex;
+    justify-content: space-evenly;
+    background-color: #1f2937;
+    padding: 0px 0px 110px 0px;
+    height: 300px;
+    gap: 40px;
+    align-items: center;
+}
+.sign_up{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 464px;
+    
+}
+.hero h2{
+    color: #f9faf8;
+    font-size: 48px;
+    font-weight: 900;
+}
+img{
+    height: 240px
+}
+p{
+    color: #e5e7eb;
+    font-size: 18px;
+}
+button{
+    background-color: #3882f6;
+    justify-content: right;
+    width: 25%;
+    padding: 10px;
+    border-radius: 7px;
+}
+
+main h2{
+    font-size: 36px;
+    color: #1f2937;
+    text-align: center;
+    padding-top: 30px;
+
+}
+.box{
+    padding-top: 60px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 157px;
+    max-width: 100%;
+    margin: auto;
+}
+
+.boxes{
+    display: flex;
+    border: 8px solid rgb(52, 144, 248);
+    border-radius: 15px;
+    height: 50px;
+   
+    height: 200px;
+    width: 240px;
+    
+    
+}
+.text{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+   
+    text-align: center;
+    
+}
+.box .text p{
+    color: #3882f6;
+}
+.author{
+    display: flex;
+    flex-direction: column;
+    background-color: #e5e7eb;
+    justify-content: center;
+    width: 100%;
+}
+.author_quote{
+    display: block;
+    width: 70%;
+    font-size: 36px;
+    color: #1f2937;
+    text-align: center;
+    padding: 50px 80px 40px 180px;
+
+
+}
+.author_name{
+    color: #1f2937;
+    text-align: end;
+    padding-top: 17px;
+    font-size: 20px;
+    font-weight: 800;
+    margin-right: 140px;
+}
